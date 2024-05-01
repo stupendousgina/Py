@@ -34,9 +34,9 @@ if place == "forest":
     if action == "cross a river":
         action = input("Do you want to get in the boat or continue across the river? ")
         if action == "get in the boat":
-            pass
+            print("lets go down the river!")
         else:
-            pass
+            print("you found a fishing rod and caught some fish!")
 
 else:
     pass
